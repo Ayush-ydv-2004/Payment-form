@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+    <h1><u>PAYMENT FORM</u></h1>
+    <p> equired field are followed by *</p>
+    <h2> Customer Information </h3>
+        <p>Name:*<input type="text"  name="name" required></p>
+        <fieldset> 
+            <legend>Gender*</legend>
+        <p>
+            male<input type="radio" name="gender" id="male" required> female<input type="radio" name="gender" id="female" required>
+        </p>
+        </fieldset>
+        <p>
+            Address*:<textarea name="Address" id="adress" cols="80" rows="8" required></textarea>
+        </p>        
+        <p>Emale ID:<input type="email" name="email" id="email"></p>
+        <p>
+            pincode:*<input  type="number" name="pincode"id="pincode" required>
+
+        </p>
+        <H2>Payment Information</H2>
+        <p>
+            Card Type:*
+            <select name="card_type" id=" card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="visa" >visa</option>
+                <option value="Debit card"> Debit card</option>
+                <option value="credit card">credit card</option>
+            </select>
+        </p>
+        <P>
+            Card Number:*<input type="password" name="card number"id="card number" required>
+        </P>
+        <P>
+            IFSC Code:*<input type="password" name="ifsc code" id="ifsc code"required>
+        </P> 
+        <p>
+            Expiratio Date:*<input type="date" name="date" id="date" required>
+        </p>
+        <p>
+            <input type="submit" value="Pay Now">
+
+        </p>
+        </form> 
